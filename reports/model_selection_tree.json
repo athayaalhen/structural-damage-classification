@@ -1,0 +1,39 @@
+{
+  "model": "tree",
+  "tune_size": 100000,
+  "cv": 5,
+  "baseline": {
+    "cv_f1_macro": 0.4765,
+    "std": 0.0026,
+    "seconds": 39.3
+  },
+  "grid_search": {
+    "best_params": {
+      "algo__criterion": "entropy",
+      "algo__max_depth": null,
+      "algo__min_samples_leaf": 100
+    },
+    "best_cv_f1_macro": 0.4812,
+    "std_of_best": 0.0037,
+    "n_candidates": 16,
+    "n_fits": 80,
+    "seconds": 572.2
+  },
+  "random_search": {
+    "best_params": {
+      "algo__min_samples_leaf": 100,
+      "algo__max_depth": 30,
+      "algo__criterion": "entropy"
+    },
+    "best_cv_f1_macro": 0.4812,
+    "std_of_best": 0.0037,
+    "n_candidates": 8,
+    "n_fits": 40,
+    "seconds": 300.3
+  },
+  "best_params": {
+    "algo__criterion": "entropy",
+    "algo__max_depth": null,
+    "algo__min_samples_leaf": 100
+  }
+}

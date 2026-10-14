@@ -1,0 +1,20 @@
+# Data besar (jangan di-commit, aturan tugas: file > 100MB tidak boleh)
+data/*.csv
+!data/.gitkeep
+
+# Model > 100MB (batas GitHub). Buat ulang: python -m scripts.train --model rf --reweight
+models/pipeline_model_rf.pkl
+
+# Cache Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

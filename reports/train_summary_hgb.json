@@ -1,0 +1,22 @@
+{
+  "model": "hgb",
+  "val_f1_macro": 0.5483,
+  "fit_diagnostics": {
+    "train_f1": 0.6485,
+    "val_f1": 0.5483,
+    "gap": 0.1002,
+    "verdict": "indikasi overfit (gap besar)"
+  },
+  "train_seconds": 176.3,
+  "class_adjustment": {
+    "mode": "kali",
+    "values": {
+      "Grade 1": 0.6,
+      "Grade 2": 0.9,
+      "Grade 3": 1.1,
+      "Grade 4": 1.2,
+      "Grade 5": 1.1
+    },
+    "honest_gain": 0.0057
+  }
+}

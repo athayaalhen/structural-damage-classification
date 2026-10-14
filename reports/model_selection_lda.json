@@ -1,0 +1,34 @@
+{
+  "model": "lda",
+  "tune_size": 100000,
+  "cv": 5,
+  "baseline": {
+    "cv_f1_macro": 0.5009,
+    "std": 0.0028,
+    "seconds": 17.5
+  },
+  "grid_search": {
+    "best_params": {
+      "algo__solver": "svd"
+    },
+    "best_cv_f1_macro": 0.5009,
+    "std_of_best": 0.0028,
+    "n_candidates": 5,
+    "n_fits": 25,
+    "seconds": 66.9
+  },
+  "random_search": {
+    "best_params": {
+      "algo__solver": "lsqr",
+      "algo__shrinkage": null
+    },
+    "best_cv_f1_macro": 0.5003,
+    "std_of_best": 0.0029,
+    "n_candidates": 3,
+    "n_fits": 15,
+    "seconds": 35.6
+  },
+  "best_params": {
+    "algo__solver": "svd"
+  }
+}

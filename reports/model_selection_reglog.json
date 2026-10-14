@@ -1,0 +1,33 @@
+{
+  "model": "reglog",
+  "tune_size": 40000,
+  "cv": 5,
+  "baseline": {
+    "cv_f1_macro": 0.4943,
+    "std": 0.0033,
+    "seconds": 42.1
+  },
+  "grid_search": {
+    "best_params": {
+      "algo__C": 1.0
+    },
+    "best_cv_f1_macro": 0.4943,
+    "std_of_best": 0.0033,
+    "n_candidates": 6,
+    "n_fits": 30,
+    "seconds": 180.1
+  },
+  "random_search": {
+    "best_params": {
+      "algo__C": 3.0
+    },
+    "best_cv_f1_macro": 0.4935,
+    "std_of_best": 0.0042,
+    "n_candidates": 3,
+    "n_fits": 15,
+    "seconds": 87.6
+  },
+  "best_params": {
+    "algo__C": 1.0
+  }
+}

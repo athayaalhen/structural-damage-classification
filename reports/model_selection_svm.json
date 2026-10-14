@@ -1,0 +1,33 @@
+{
+  "model": "svm",
+  "tune_size": 30000,
+  "cv": 3,
+  "baseline": {
+    "cv_f1_macro": 0.4728,
+    "std": 0.0015,
+    "seconds": 15.3
+  },
+  "grid_search": {
+    "best_params": {
+      "algo__C": 0.3
+    },
+    "best_cv_f1_macro": 0.4743,
+    "std_of_best": 0.0027,
+    "n_candidates": 5,
+    "n_fits": 15,
+    "seconds": 63.0
+  },
+  "random_search": {
+    "best_params": {
+      "algo__C": 0.3
+    },
+    "best_cv_f1_macro": 0.4743,
+    "std_of_best": 0.0027,
+    "n_candidates": 3,
+    "n_fits": 9,
+    "seconds": 41.5
+  },
+  "best_params": {
+    "algo__C": 0.3
+  }
+}
