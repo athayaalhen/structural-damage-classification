@@ -154,7 +154,7 @@ kelas yang diukur jujur (dicari di separuh validasi, diuji di separuh lain), jad
 | Regresi Logistik | 0.5166 | +0.0046 | **0.51701** |
 | Decision Tree | 0.5088 | +0.0094 | **0.52179** |
 | SVM (linear) | 0.5095 | +0.0071 | **0.51649** | 
-| Analisis Diskriminan | 0.5060 | +0.0014 | _isi_ | 
+| Analisis Diskriminan | 0.5060 | +0.0014 | - | 
 | *Random Forest (tambahan)* | 0.5391 | +0.0091 | **0.55217** |
 | *Gradient Boosting (tambahan)* | 0.5484 | +0.0049 | **0.55865** |
 
